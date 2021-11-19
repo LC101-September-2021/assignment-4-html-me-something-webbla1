@@ -1,1 +1,129 @@
-/* Write your CSS here! */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: optima;
+    user-select: none;
+    text-align: center;
+
+}
+nav .logo{
+    color: white;
+    font-size: 33px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 110px;
+}
+nav{
+    height: 70px;
+    background: #000;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+}
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 20px;
+    background: #000;
+}
+nav ul li a:hover,
+nav ul li a.active{
+    color: #23dbdb;
+}
+h1{
+    font-size:20px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.wrapper {
+    height: 10vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .typing-demo {
+    width: 45ch;
+    animation: typing 5s steps(45), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: Lucida Sans Typewriter;
+    font-size: 2em;
+    color: white;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+p {
+    font-family: Lucida Sans Typewriter;
+    text-align: justify;
+    padding: 20px;
+}
+
+header {
+    text-align: left;
+}
+
+img {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.chapter1 {
+    display: block;
+    padding: 5px;
+    background-color: #CBC3E3;
+}
+
+.chapter2 {
+    display: block;
+    padding: 5px;
+    background-color: #ADD8E6;
+}
+
+.chapter3 {
+    display: block;
+    padding: 5px;
+    background-color: #F47174;
+}
+
+.chapter4 {
+    display: block;
+    padding: 5px;
+    background-color: #ACD1AF;
+}
+
+.chapter5 {
+    display: block;
+    padding: 5px;
+    background-color: #D3D3D3;
+}
